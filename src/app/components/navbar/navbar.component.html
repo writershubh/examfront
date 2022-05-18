@@ -1,0 +1,24 @@
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row mt20">
+            <span class="example-spacer academics text-center">
+                <h3>
+                    Get your academic <a [routerLink]="'/'">courses</a> at minimal charges for a limited time | A special <a [routerLink]="'/'">offer</a> for new users.
+                    <span class="blinky academics">
+                        <mark>Hurry Up!</mark>
+                    </span>
+                    </h3>
+            </span>
+        </div>
+    </div>
+</div>
+
+  <mat-toolbar color="primary">
+    <a [routerLink]="'/'" mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+      <mat-icon>auto_stories</mat-icon>
+    </a>
+    <span class="academics1">Academics - Let's get placed</span>
+    <span class="example-spacer"></span>
+      <a [routerLink]="'/login'" class="example-icon favourite-icon" mat-raised-button>Log in</a>
+      <a [routerLink]="'/signup'" class="example-icon favourite-icon mr20 ml20" mat-raised-button>Try for free</a>
+  </mat-toolbar>
